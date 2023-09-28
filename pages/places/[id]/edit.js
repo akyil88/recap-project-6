@@ -20,7 +20,7 @@ export default function EditPage() {
     });
 
     if(response.ok){
-      router.push(`/places/${id}`);
+      router.push("/");
     }
   }
 
